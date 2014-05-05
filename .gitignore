@@ -1,0 +1,7 @@
+.phalcon
+cache/*
+composer.lock
+log/*
+public/test/
+vendor/
+!.gitkeep
