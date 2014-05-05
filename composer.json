@@ -9,8 +9,8 @@
     "phalcon/incubator": "dev-master"
   },
   "autoload": {
-    "psr-0": {
-      "MyApp": "source/"
+    "psr-4": {
+      "MyApp\\": "source/"
     }
   },
   "scripts": {
