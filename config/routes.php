@@ -2,6 +2,6 @@
 
 return array(
     'index' => array(
-        'get' => array('/{name}', 'index'),
+        'get' => array('/{body}', 'index'),
     ),
 );

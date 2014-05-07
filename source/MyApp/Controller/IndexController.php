@@ -1,9 +1,9 @@
 <?php
 namespace MyApp\Controller;
 
-class IndexController
+class IndexController extends \Phalcon\Mvc\Controller
 {
-    public static function index($name)
+    public function index($body)
     {
         // Create a response
         $response = new \Phalcon\Http\Response();
@@ -11,7 +11,7 @@ class IndexController
 
         $response->setJsonContent(array(
             'status' => 'OK',
-            'body' => $name
+            'body' => $body
         ));
 
         return $response;
